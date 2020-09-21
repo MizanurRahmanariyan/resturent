@@ -1,0 +1,434 @@
+/*==============google-font=============*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,800;1,900&display=swap');
+/*==========================google-font-fmaily==============*/
+
+/*
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+*/
+/*==================end================*/
+
+
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.home-bg {
+    background-image: url(banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar-nav .active > .nav-link {
+    color: #3d2514 !important;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(9, 5, 0) !important;
+    border-color: rgb(57, 4, 4) !important;
+}
+
+.navbar-light .navbar-toggler-icon,
+.navbar-toggler-icon {
+    color: rgb(9, 5, 0) !important;
+    font-size: 30px;
+    background-image: none !important;
+    padding: 10px !imortant;
+}
+
+
+.header-top-info {
+    float: right;
+}
+
+.header-top-inf {
+    margin-bottom: -26px;
+    margin-right: 12px;
+}
+
+.header-top-inf span {
+    color: black !important;
+}
+
+.buger-info {
+    padding-top: 180px;
+}
+.buger-img{
+    position: relative;
+}
+/*
+.first-box{
+    width: 200px;
+    height: 200px;
+    background-color: #bf2222;
+   
+    top:0px;
+    left: 0px;
+    bottom: 70px;
+    border-radius:100%;
+}
+*/
+.first-boxs{
+    
+    width: 200px;
+    height: 200px;
+    background-color: #bf2222;
+    position: absolute;
+/*    top:0px;*/
+    left: 0px;
+    bottom: 70px;
+    border-radius:100%;
+    z-index: 1;
+}
+.first-boxs img{
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    padding-left: 10px;
+padding-bottom: 10px;
+    
+}
+
+.buger-info h3 {
+    font-size: 18px;
+    color: #3d2514;
+    border: 2px dashed #3d2514;
+    padding: 6px 0px 2px 9px;
+}
+
+.buger-info h1 {
+    font-size: 110px;
+    color: #3d2514;
+    font-weight: 700px;
+    font-family: 'Alfa Slab One', cursive;
+
+}
+
+.buger-info h4 {
+    font-size: 43px;
+    color: #3d2514;
+    font-weight: 700px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+/*===================banner-menu==================*/
+.blog-menu img {
+    position: relative;
+}
+
+.blog-info {
+    position: absolute;
+    top: 30px;
+    left: 35px;
+}
+
+.blog-info h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    color: white;
+}
+
+.blog-info h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    color: white;
+    font-size: 40px;
+}
+
+.blog-one img {
+    position: relative;
+}
+
+.blog-info-one {
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.blog-info-one h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.blog-two img {
+    position: relative;
+}
+
+.blog-info-two {
+    position: absolute;
+    top: 230px;
+    left: 35px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.blog-info-two h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*=============iteam-menu-two===============*/
+.box-iteams {
+    background-color: #ffc045;
+    text-align: center;
+    width: 224px;
+    height: auto;
+    font-size: 9px;
+    margin: 0px auto;
+}
+
+.box-iteams h1 {
+    font-size: 22px;
+    color: black;
+    padding: 5px;
+    padding-bottom: 5px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.text-iteam h2 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 60px;
+}
+
+.text-iteam p {
+    padding: 10px 67px;
+}
+
+.iteams h2 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* <!--===================slider-section=================================-->*/
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    float: left;
+    padding-top: 15px;
+}
+
+#slider-box {
+    background-color: white;
+    width: 100%;
+    padding: 15px 15px;
+    box-shadow: 10px 15px 20px 10px;
+}
+
+.slider-info h3 {
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    padding-top: 20px
+}
+
+.slider-info h1 {
+    font-family: 'Alfa Slab One', cursive;
+    color: black;
+}
+
+.slider-info p {
+    color: black;
+    padding-top: 20px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background-color: #bf2222 !important;
+    margin: 0px auto;
+}
+
+.owl-carousel button.owl-dot {
+    border: 1px solid #000 !important;
+    border-radius: 100%;
+    margin-left: 15px;
+    width: 20px;
+    height: 20px;
+
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    margin: 0px auto !important;
+    background-color: yellow !important;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 10px;
+    position: absolute;
+    top: ;
+    bottom: 45px;
+    left: 10px;
+
+}
+
+
+
+/*<!--===============contact-form-section-start==========================-->*/
+.contact-info h1 {
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.contact-info h2 {
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+
+}
+
+.btn {
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2;
+}
+
+.btn-1 {
+    font-family: 'Alfa Slab One', cursive;
+    background-color: #bf2222;
+    padding: 10px 10px;
+    border: none;
+}
+
+/*=============contact-menu================*/
+
+.contact-menu-bg {
+    background-image: url(burder-s.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.contact-form-one input {
+    width: 70%;
+    float: right;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 15px 10px;
+    font-size: 19px;
+    margin-top: 10px;
+    color: white;
+
+}
+
+.contact-form-two input {
+    width: 70%;
+    float: left;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 15px 10px;
+    font-size: 19px;
+    margin-top: 10px;
+    color: white;
+
+}
+
+.contact-form-two button {
+    width: 70%;
+    float: left;
+    background-color: #bf2222;
+    border: none;
+    padding: 13px 0px;
+    font-size: 24px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*=============footer================*/
+
+#footer-bg {
+    background-image: url(bottom.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.contact-main-info img {
+    padding: 20px;
+    padding-top: 20px;
+    padding-top: 51px;
+}
+
+.contact-main-info p {
+    padding-left: 20px;
+    padding-top: 40px;
+    color: white;
+}
+
+.contact-main-info h6 {
+    padding-left: 20px;
+    padding-top: 40px;
+    color: white;
+}
+
+.info {
+    padding-top: 220px;
+    text-align: center;
+    color: white;
+}
+
+.info i {
+    font-size: 36px;
+}
+
+.info span {
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+.info-two {
+    padding-top: 20px;
+    text-align: center;
+    padding-right: 82px;
+    color: white;
+
+}
+
+.info-two i {
+    font-size: 26px;
+}
+
+.info-two span {
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+.socail-icon {
+    float: right;
+    padding-top: 10px;
+}
+
+.socail-icon-box {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    color: black;
+    line-height: 40px;
+    text-align: center;
+}
+
+.socail-icon-box i {
+    line-height: 40px;
+    font-size: 24px;
+}
